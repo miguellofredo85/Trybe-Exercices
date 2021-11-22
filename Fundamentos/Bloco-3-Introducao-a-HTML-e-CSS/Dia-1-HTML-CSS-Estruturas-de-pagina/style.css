@@ -1,0 +1,22 @@
+body{
+    font-size: 16px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;    
+}
+ul{
+    background-color: green;   
+    line-height: 30px;
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic; 
+}
+.fondocolor-p-ul{
+    background-color: aquamarine;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
