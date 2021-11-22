@@ -7,5 +7,5 @@
 - <class> <id>
 - comentar <!--Ola-->
 - estilizacao com color, background, font, align, text-decoration
-- relaco size com em 
+- relacao size com em 
 - linkar o css em outra pasta mediate link stylesheet

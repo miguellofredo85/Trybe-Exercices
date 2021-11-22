@@ -1,2 +1,15 @@
-Aqui aprendimos os commandos na terminal do sistema operativo, como criação de diretorios, arquivos, mover e renomear eles, agregar conteudo, manipulação, busca, processos, permissões etc. 
-Tambem os fundamentos sobre Kernell, Shell, que eles são e como se complementam.
+# Aprendizado
+
+- Inicializacao com git init
+- git add [arquivo] ou . 
+- git commit e deixar mensagem com -m "[mensagem]"
+- git push com -u caso seija a primeira vez mais origin e main
+- criar repositorio no GitHub e creacao de chave SSH
+- linkar com repositorio com git add remote [SSH]
+- git clone
+- consulta git branch o criacao de git branch [nome da branch]
+- mudar com git checkout -b [branch]
+- deletar branch com -d o oremoto com -dr
+- fazer forks e pull request
+- fazer merge 
+
