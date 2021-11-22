@@ -1,0 +1,33 @@
+Git Github
+
+comando git 
+
+git init
+git add .
+git commit -m ""
+git remote add 
+git remote -v
+git push -u origin
+git .gitignorate
+git log
+git branch
+git checkout
+git clone <endereco>
+git fetch
+git pull
+
+
+Internet
+
+comandos na terminal
+
+traceroute <pagina web> /traza la ruta de donde va y de donde vienenses
+ping / cheque resposta de la pagina en ms
+nslookup / info de la pagina web
+
+
+
+
+
+
+
