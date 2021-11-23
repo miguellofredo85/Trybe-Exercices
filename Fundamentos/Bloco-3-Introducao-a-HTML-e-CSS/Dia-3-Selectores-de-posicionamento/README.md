@@ -12,4 +12,4 @@
 - :hover :focus pseudoelementos
 - transition
 - overflow auto para poder fazer scroll
--span
+- span
