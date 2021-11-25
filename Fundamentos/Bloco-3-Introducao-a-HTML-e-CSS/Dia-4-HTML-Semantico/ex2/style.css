@@ -1,3 +1,60 @@
+body{
+    background-color: azure;
+}
+h1,h2,h3,h4,p{
+    text-align: center;
+}
+
+header{
+    background-image: url("foto/langosta.jpg");
+    background-size: cover;
+    height: 160px;
+}
+h1{
+    display: block;
+    color: coral;
+    font-size: 25px;
+}
+h2{
+    display: block;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: cyan;
+}
+h3{
+    font-size: 20px;
+    text-decoration: underline;
+    color: darksalmon;
+}
+h4{
+    font-family: monospace;
+    font-size: 15px;
+}
+nav{
+    text-align: center;
+    background-color: chartreuse;
+    margin-top: 0;
+}
+ul.familia{
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+ul.familia li{
+    display: block;
+    line-height:40px;
+    letter-spacing: 2px;
+}
+ul.lista-nav{
+    list-style: none;
+}
+ul.lista-nav li{
+    display: inline;
+    padding: 0px 40px ;
+}
+
+
 aside{
     display: inline-block;
     position: absolute;
@@ -9,4 +66,11 @@ article.dolado{
 }
 a.video{
     margin-top: 20px;
+}
+footer{ 
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
 }
