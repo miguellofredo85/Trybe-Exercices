@@ -30,6 +30,6 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 3.2 _HTML & CSS - Primeiros passos em CSS_
 - [x] 3.3 _HTML & CSS - Seletores e posicionamento_
 - [x] 3.4 _HTML Semântico_
-- [] 3.5 _Projeto - Lessons Learned_
+- [x] 3.5 _Projeto - Lessons Learned_
 
 
