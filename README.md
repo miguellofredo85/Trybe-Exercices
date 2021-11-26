@@ -32,4 +32,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 3.4 _HTML Semântico_
 - [x] 3.5 _Projeto - Lessons Learned_
 
+#### Bloco 4 - Introdução à JavaScript e Lógica de Programação
 
+- [] 4.1 _Introdução - JavaScript_
+- [] 4.1 _JavaScript - Primeiros passos_
