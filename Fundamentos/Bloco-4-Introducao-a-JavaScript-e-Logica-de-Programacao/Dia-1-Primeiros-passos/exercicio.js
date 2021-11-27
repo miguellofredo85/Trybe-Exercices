@@ -58,9 +58,45 @@ else{
 
 // 5 Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.Um ângulo será considerado inválido se não tiver um valor positivo.
 
+const valorAngulo1 = 60;
+const valorAngulo2 = 90;
+const valorAngulo3 = 30;
+
+let somaAngulos = valorAngulo1+valorAngulo2+valorAngulo3
+let angulosPositivos = valorAngulo1>0 && valorAngulo2>0 && valorAngulo3>0
+
+if(somaAngulos === 180){
+    if(angulosPositivos){
+        console.log(true);
+}
+else{
+    console.log(false);
+}
+}
+else{
+    console.log("angulo invalido");
+}
+
 /* 6 Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case) .Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
 Exemplo: bishop (bispo) -> diagonals (diagonais)*/
+const pecaXadrez = "bishop"
 
+switch(pecaXadrez.toLowerCase()){
+    case"bishop":
+        console.log("Diagonal Izquerda para Acima");
+        break;
+    case"rey":
+        console.log("Diagonal Direita apra Acima");
+        break;
+    case "cavalho":
+        console.log("Salto acima direita");
+        break;
+    case "rainha":
+        console.log("Diagonal Direita para Embaixo");
+        break;
+    default:
+        console.log("erro");
+    }
 
 /* 7 - Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
 Porcentagem >= 90 -> A
@@ -71,14 +107,52 @@ Porcentagem >= 50 -> E
 Porcentagem < 50 -> F
 O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.*/
 
+let porcentagem = 65;
+
+if(porcentagem >= 90 && porcentagem <= 100){
+    console.log("A");
+}else if(porcentagem >= 80 && porcentagem < 90){
+    console.log("B");
+}else if(porcentagem >= 70 && porcentagem < 80){
+    console.log("C");
+}else if(porcentagem >=60 && porcentagem < 70){
+    console.log("D");
+}else if(porcentagem >= 50 && porcentagem < 60){
+    console.log("E");
+}else if(porcentagem < 50 && porcentagem >= 0){
+    console.log("F")
+}else if(porcentagem < 0 || porcentagem > 100){
+    console.log("erro e encerrar")
+}
+
+
 /* 8 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
 Bonus: use somente um if .*/
+const valor1 = 21;
+const valor2 = 33;
+const valor3 = 2;
+
+if(valor1%2 === 0 || valor2%2 === 0 || valor3%2 === 0){
+    console.log(true);
+}
+else{
+    console.log(false);
+}
+
 
 /* 9 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
 Bonus: use somente um if .*/
 
+const numeroUm = 20;
+const numeroDois = 65;
+const numeroTres = 40;
 
-
+if(numeroUm%2 !== 0 || numeroDois%2 !== 0 || numeroTres%2 !== 0){
+    console.log(true);
+}
+else{
+    console.log(false);
+}
 /* 10 Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
 Atente que, sobre o custo do produto, incide um imposto de 20%.
 Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
