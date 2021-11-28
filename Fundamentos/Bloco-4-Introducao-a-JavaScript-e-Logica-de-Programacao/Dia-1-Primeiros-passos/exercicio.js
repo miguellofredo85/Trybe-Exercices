@@ -159,8 +159,16 @@ Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos 
 O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
 valorCustoTotal = valorCusto + impostoSobreOCusto
 lucro = valorVenda - valorCustoTotal (lucro de um produto)*/
+const valorCusto = 45
+const valorVenda = 80;
 
-
+if(valorCusto >= 0 && valorVenda >= 0){
+    const costoMaisImposto = (valorCusto * 20) / 100
+    const ganancia = (valorVenda - costoMaisImposto) *1000
+    console.log(ganancia)
+}else{
+    console.log("Erro: Fechar sistema")
+}
 
 /* 11 Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
 A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
