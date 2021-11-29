@@ -34,5 +34,5 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 #### Bloco 4 - Introdução à JavaScript e Lógica de Programação
 
-- [] 4.1 _Introdução - JavaScript_
-- [] 4.1 _JavaScript - Primeiros passos_
+- [x] 4.1 _Introdução - JavaScript_
+- [x] 4.1 _JavaScript - Primeiros passos_
