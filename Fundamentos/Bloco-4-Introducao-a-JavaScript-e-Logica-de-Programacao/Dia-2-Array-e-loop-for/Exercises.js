@@ -62,15 +62,40 @@ for(let i = 0; i < numbers.length; i+=1){
 
 console.log(valorMinimo)*/
 // 8 Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
-let myArray = []; 
+/*let myArray = []; 
 for(let i = 0; i <= 25; i+=1){
         myArray.push(i)
     }
 
   
-console.log(myArray)
+console.log(myArray)*/
 
 // 9 Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2
-for(let j = 0; j < myArray.length; j+=1){
+/*for(let j = 0; j < myArray.length; j+=1){
     console.log(myArray[j]/2)
+}*/
+
+
+
+
+// para que seja de menos a maior trocar index por secondIndex desde o if em diante e trocar para < o comparativo do if
+
+/*for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (numbers[index] > numbers[secondIndex]) {
+        let position = numbers[secondIndex];
+        numbers[secondIndex] = numbers[index];
+        numbers[index] = position;
+      }
+    }
+  }
+  console.log(numbers)*/
+let array=[];
+for(let i = 0; i < numbers.length; i += 1){
+    if(i+1 <numbers.length){
+        array.push(numbers[i]*numbers[i+1]);
+    }else{
+        array.push(numbers[i]*2);
+    }
 }
+console.log(array)
