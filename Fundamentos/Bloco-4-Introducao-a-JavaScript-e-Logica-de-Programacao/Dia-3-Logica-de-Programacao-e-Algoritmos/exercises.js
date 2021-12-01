@@ -61,14 +61,6 @@ espaco='';
 izquerda-=1;
 direita+=1;
 }*/
-let base = 5;
-let estrelha = '*';
-let espaco ='';
-        for(let i=1; i<base; i+=1){
-                for(let j=1; j<base; j+=1){
-                        console.log(espaco=espaco+' ')
-                        console.log(estrelha);
-                        base-=1;
-}      
+
 
 }
