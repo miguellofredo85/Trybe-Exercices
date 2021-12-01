@@ -28,16 +28,20 @@ for(let j=0; j<n; j+=1){
                 console.log(aspas);
         }*/
 
-
-        /*let n = 5;
+/*
+        let n = 5;
         let asterisco = '*';
         let aspas = '';
        
         for(let i=0; i<n; i+=1){
          aspas=aspas+asterisco;
         console.log(aspas)
-                }*/
-/*let base = 5;
+                };
+
+                */
+
+                /*
+let base = 5;
 let estrelha = '*';
 let espaco = '';
 let medioBase = (base+1)/2;
@@ -57,4 +61,14 @@ espaco='';
 izquerda-=1;
 direita+=1;
 }*/
-let bas3 
+let base = 5;
+let estrelha = '*';
+let espaco ='';
+        for(let i=1; i<base; i+=1){
+                for(let j=1; j<base; j+=1){
+                        console.log(espaco=espaco+' ')
+                        console.log(estrelha);
+                        base-=1;
+}      
+
+}
