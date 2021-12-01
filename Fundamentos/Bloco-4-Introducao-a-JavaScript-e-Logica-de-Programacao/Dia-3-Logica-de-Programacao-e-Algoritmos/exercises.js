@@ -57,3 +57,4 @@ espaco='';
 izquerda-=1;
 direita+=1;
 }*/
+let bas3 
