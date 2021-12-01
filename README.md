@@ -38,3 +38,4 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 4.1 _JavaScript - Primeiros passos_
 - [x] 4.2 _JavaScript - Arrays e Loop For_
 - [x] 4.3 _JavaScript - Logica de Programacao e Algoritmos_
+- [x] 4.4 _JavaScript - Objetos e Funcoes_
