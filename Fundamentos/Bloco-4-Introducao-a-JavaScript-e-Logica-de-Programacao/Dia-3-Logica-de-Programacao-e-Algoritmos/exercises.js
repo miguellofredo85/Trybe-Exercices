@@ -14,8 +14,7 @@ for(let i = 0; i<valorN; i+=1){
 console.log(espaco);
 newposition-=1;  
 espaco = '';
-}
-*/
+}*/
 /*
 let n = 5;
 let asterisco = '*';
@@ -26,9 +25,9 @@ for(let i=0; i<n; i+=1){
 };
 for(let j=0; j<n; j+=1){
                 console.log(aspas);
-        }*/
+        }
 
-/*
+
         let n = 5;
         let asterisco = '*';
         let aspas = '';
@@ -37,10 +36,10 @@ for(let j=0; j<n; j+=1){
          aspas=aspas+asterisco;
         console.log(aspas)
                 };
+*/
+                
 
-                */
-
-                /*
+  /*              
 let base = 5;
 let estrelha = '*';
 let espaco = '';
@@ -60,7 +59,6 @@ console.log(espaco);
 espaco='';
 izquerda-=1;
 direita+=1;
-}*/
-
-
 }
+
+*/
