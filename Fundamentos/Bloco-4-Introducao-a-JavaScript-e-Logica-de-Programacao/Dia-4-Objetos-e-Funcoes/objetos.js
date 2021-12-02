@@ -66,5 +66,28 @@ console.log('O livro favorito de '+ leitor.nome + leitor.sobrenome + ' se chama 
 
 console.log(leitor)
 
+/*
+let word = 'trybe';
+let end = 'be';
+let a = word.split('');
+let b = end.split('');
+*/
 
 
+/*function comparacao (word, ending){
+let w = word.split('')
+let e = ending.split('')
+let a = 0
+
+for(let index = 1; index <= e.length; index += 1){
+    if(e[e.length - index] === w[w.length - index]){
+        a = a + 1
+    }
+}
+if(a === e.length){
+   return true;
+}else{
+    return false;
+}
+}
+console.log(comparacao('trybe','be'));
