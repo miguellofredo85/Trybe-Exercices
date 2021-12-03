@@ -39,3 +39,9 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 4.2 _JavaScript - Arrays e Loop For_
 - [x] 4.3 _JavaScript - Logica de Programacao e Algoritmos_
 - [x] 4.4 _JavaScript - Objetos e Funcoes_
+- [x] 4.5 _Projeto - Playground Functions_ 
+
+#### Bloco 5 - JavaScript: DOM, Eventos e Web Storage
+
+- [ ] 5.1 _JavaScript - DOM e Selectores_
+
