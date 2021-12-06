@@ -100,10 +100,21 @@ sectionLeft.appendChild(imagen);
 // Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 
 let listaDesordenada = document.createElement('ul');
-for(let index = 0 )
-
+sectionRight.appendChild(listaDesordenada);
+let arr = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'nove', 'dez']
+for (let index in arr){
+  let lista = document.createElement('li');
+  lista.innerText = arr[index];
+  listaDesordenada.appendChild(lista);
+}
 
 // Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+
+for (let i = 1; i <= 3; i += 1 ){
+  let tagH3 = document.createElement('h3');
+  tagH3.innerText = 'Praticando elementos no JavaScript';
+  mainGeral.appendChild(tagH3);
+} 
 
 
     </script>
