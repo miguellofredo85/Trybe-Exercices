@@ -44,5 +44,6 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 #### Bloco 5 - JavaScript: DOM, Eventos e Web Storage
 
 - [x] 5.1 _JavaScript - DOM e Selectores_
-- [ ] 5.2 _JavaScript - DOM, Eventos e Web Storage_
+- [x] 5.2 _JavaScript - DOM, Eventos e Web Storage_
+- [ ] 5.3 _JavaScript - Eventos_
 
