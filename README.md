@@ -45,5 +45,6 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 - [x] 5.1 _JavaScript - DOM e Selectores_
 - [x] 5.2 _JavaScript - DOM, Eventos e Web Storage_
-- [ ] 5.3 _JavaScript - Eventos_
+- [x] 5.3 _JavaScript - Eventos_
+- [ ] 5.4 _JavaScript - Web Storage_
 
