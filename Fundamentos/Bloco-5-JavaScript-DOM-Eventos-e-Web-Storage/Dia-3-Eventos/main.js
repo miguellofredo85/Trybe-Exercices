@@ -42,7 +42,9 @@ meuTop.addEventListener('dblclick', function(){
 meuTop.addEventListener('mouseover', function(event){
     event.target.style.color = 'yellow';
 });
-
+meuTop.addEventListener('mouseout', function(event){
+    event.target.style.color = 'unset';
+})
 // Segue abaixo um exemplo do uso de event.target:
 
 
