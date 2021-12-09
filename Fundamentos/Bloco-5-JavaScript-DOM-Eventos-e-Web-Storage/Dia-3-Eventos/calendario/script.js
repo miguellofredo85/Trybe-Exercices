@@ -57,7 +57,7 @@ botomFeriados('Feriados');
 function colorHolyday(){
 let botomId = document.querySelector('#btn-holyday');
 let backgroundColor = 'rgb(238,238,238)';
-let colorFundoDois = 'red';
+let colorFundoDois = 'rgb(210, 210, 210)';
 let allHolyday = document.querySelectorAll('.holyday');
 
 botomId.addEventListener('click', function(){
@@ -137,15 +137,69 @@ function legendaCor (cor){
 
 legendaCor('yellow');
 
+function clickBtn (){
+let colorClass = document.querySelector('.task');
+let taskSelected = document.getElementsByClassName('task selected')
 
+colorClass.addEventListener('click', function(event){
+  if (taskSelected.length === 0){
+    event.target.className = 'task selected'
+  }else {
+    event.target.className = 'task'
+  }
 
+})
 
+}
+  clickBtn();
 
+function corMinhaTarefaNoDia () {
+  let IdDay = document.querySelector('#days');
+  let taskSelected = document.getElementsByClassName('task selected');
+  let task = document.querySelector('.task');
+  let colorTask = task.style.backgroundColor;
 
+  IdDay.addEventListener('click', function(event) {
+    let colorEvent = event.target.style.color;
+    if (taskSelected.length > 0 && colorEvent !== colorTask) {
+      let cor = taskSelected[0].style.backgroundColor;
+      event.target.style.color = cor;
+    }else if (colorEvent === colorTask && taskSelected.length !== 0) {
+      event.target.style.color = 'rgb(119,119,119)';
+    }
+  })
+}
 
+corMinhaTarefaNoDia();
 
+function adicaoCompromisos (){
+  let caixaInput = document.querySelector('#task-input');
+  let adiciona = document.querySelector('#btn-add');
+  let listaUl = document.querySelector('.task-list')
 
+  adiciona.addEventListener('click', function(){
+    if (caixaInput.value.length > 0 ){
+      let listaTarefas = document.createElement('li');
+      listaTarefas.innerHTML = caixaInput.value;
+      listaUl.appendChild(listaTarefas);
+      caixaInput.value = '';
+    }else {
+      alet('digite algo');
+    }
+  })
+  caixaInput.addEventListener('keyup', function(event){
+    if (caixaInput.value.length > 0 && event.key === 'Enter'){
+      let listaTarefas = document.createElement('li');
+      listaTarefas.innerHTML = caixaInput.value;
+      listaUl.appendChild(listaTarefas);
+      caixaInput.value = '';
+    }else {
+      alet('digite algo');
+    }
+  })
+}
 
+adicaoCompromisos();
 
 
 
