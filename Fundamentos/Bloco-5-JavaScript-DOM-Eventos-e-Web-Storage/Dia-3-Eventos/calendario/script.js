@@ -127,6 +127,24 @@ function estudarMuito (string){
 }
 estudarMuito('Estudar');
 
+function legendaCor (cor){
+  let div = document.createElement('div');
+  let taskClass = document.querySelector('.my-tasks');
+  div.className = 'task';
+  div.style.backgroundColor = cor;
+  taskClass.appendChild(div)
+}
+
+legendaCor('yellow');
+
+
+
+
+
+
+
+
+
 
 
 
