@@ -82,14 +82,50 @@ function btnSextou (string){
 }
 btnSextou('Sexta-feira');
 
+function  sextaMuda (arr){
+  let btnSexta = document.querySelector('#btn-friday');
+  let sextaFeira = document.getElementsByClassName('friday');
+  let sextou = 'Sextou!';
+
+  btnSexta.addEventListener('click', function(){
+    for (let index = 0; index < sextaFeira.length; index += 1){
+      if ( sextaFeira[index].innerHTML !== sextou){
+        sextaFeira[index].innerHTML = sextou;
+      }else {
+        sextaFeira[index].innerHTML = arr[index];
+      }
+    }
+  })
+}
+let sextasFeiras = [4, 11, 18, 25];
+sextaMuda(sextasFeiras);
 
 
 
+function mouseOver (){
+  let classDay = document.querySelector('#days');
 
+  classDay.addEventListener('mouseover', function(event){
+    event.target.style.fontSize = '30px';
+  })
+}
+  function mouseSai(){
+    let classDay = document.querySelector('#days');
 
+    classDay.addEventListener('mouseout', function(event){
+      event.target.style.fontSize = '20px';
+  })
+}
+mouseOver();
+mouseSai();
 
-
-
+function estudarMuito (string){
+  let claseTarefa = document.querySelector('.my-tasks')
+  let spanTag = document.createElement('span');
+  spanTag.innerHTML = string;
+  claseTarefa.appendChild(spanTag);
+}
+estudarMuito('Estudar');
 
 
 
