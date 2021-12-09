@@ -13,4 +13,85 @@ function createDaysOfTheWeek() {
   
   createDaysOfTheWeek();
   
-  // Escreva seu código abaixo.
+  const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];;
+
+  function calendario (){
+    let UlDias = document.querySelector('#days');
+for (let index = 0; index < dezDaysList.length; index += 1){
+let numbersDay = dezDaysList[index];
+let listaDias = document.createElement('li')
+
+
+if (numbersDay === 24 || numbersDay === 31 ){
+  listaDias.className = 'day holyday';
+  listaDias.innerHTML = numbersDay;
+  UlDias.appendChild(listaDias)
+}else if (numbersDay === 4 || numbersDay === 11 || numbersDay === 18 ){
+  listaDias.className = 'day friday';
+  listaDias.innerHTML = numbersDay;
+  UlDias.appendChild(listaDias)
+}else if (numbersDay === 25){
+  listaDias.className = 'day holyday friday';
+  listaDias.innerHTML = numbersDay;
+  UlDias.appendChild(listaDias)
+}else {
+  listaDias.className = 'day';
+  listaDias.innerHTML = numbersDay;
+  UlDias.appendChild(listaDias)
+    }
+  }
+}
+calendario();
+
+function botomFeriados (string){
+  let botom = document.createElement('button');
+  let botomId = 'btn-holyday';
+  let botomClass = document.querySelector('.buttons-container');
+
+  botom.innerHTML = string;
+  botom.id = botomId;
+  botomClass.appendChild(botom);
+}
+botomFeriados('Feriados');
+
+function colorHolyday(){
+let botomId = document.querySelector('#btn-holyday');
+let backgroundColor = 'rgb(238,238,238)';
+let colorFundoDois = 'red';
+let allHolyday = document.querySelectorAll('.holyday');
+
+botomId.addEventListener('click', function(){
+for (let index = 0; index < allHolyday.length; index += 1) {
+  if (allHolyday[index].style.backgroundColor === colorFundoDois){
+    allHolyday[index].style.backgroundColor = backgroundColor;
+    } else{
+      allHolyday[index].style.backgroundColor =  colorFundoDois; 
+      }
+    }
+  })
+}
+colorHolyday();
+
+
+function btnSextou (string){
+  let btn = document.createElement('button');
+  btn.innerHTML = string ;
+  btn.id = 'btn-friday';
+  let divContainer = document.querySelector('.buttons-container');
+  divContainer.appendChild(btn);
+}
+btnSextou('Sexta-feira');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
