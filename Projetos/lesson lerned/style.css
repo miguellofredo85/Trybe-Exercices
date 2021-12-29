@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho{
+    top:0px;
+    position: fixed;
+}
+#titulo{
+    font-family: monospace;
+    font-size: 20px;
+    color: darkgray;
+    letter-spacing: 3px;
+}
+table{
+    margin: auto;
+    width: 100%;
+}
+th, td{
+    padding: 10px 30px;
+}
+tr{
+    text-align: center;
+}
+table, th, td, tr{
+    border: 2px solid black;
+}
+p{
+    line-height: 30px;
+}
+.lado-esquerdo{
+    display: inline-block;
+    max-width: 50%;
+    position: absolute;
+}
+.lado-direito{
+    margin-left: 55%;
+
+
+}

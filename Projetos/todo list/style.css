@@ -1,0 +1,109 @@
+* {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1518976024611-28bf4b48222e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 , h2 {
+  text-align: center;
+}
+
+#sectionone {
+  align-content: center;
+  margin: auto;
+  width: 300px;
+}
+
+#texto-tarefa {
+  display: inline-block;
+  margin-left: 25%;
+  border: 2px black solid;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px;
+  background-color: rgb(250 , 241 , 241 , 0.434);
+}
+
+#texto-tarefa:focus-within {
+  background-color: #e9e9e3;
+}
+
+#criar-tarefa {
+  margin-left: 40%;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(112 , 208 , 17 , 0.434);
+}
+
+#sectionetwo {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+}
+
+li {
+  padding: 5px;
+}
+
+#up-down {
+  width: 100px;
+  margin-left: 47%;
+  text-align: center;
+}
+
+#mover-cima , #mover-baixo {
+  background-color: orange;
+  border-radius: 10px;
+}
+
+#remove-cinza {
+  margin-top: 10px;
+  width: 160px;
+  margin-left: 45%;
+}
+
+#remover-selecionado {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+
+.cinza {
+  background-color: rgb(128 , 128 , 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#tresbtn {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  display: inline-block;
+  align-items: center;
+}
+
+#apaga-tudo {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(244 , 66 , 66);
+}
+
+#remover-finalizados {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+#salvar-tarefas {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: gold;
+}
+
