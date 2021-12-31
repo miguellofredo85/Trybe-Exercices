@@ -1,4 +1,4 @@
-# Trybe - O caminho certo para se formar Desenvolvedor Web
+# Trybe - Formacao para Desenvolvedor Web
 
 Este arquivo contem tudos os aprendizados adquiridos por [mim](https://www.linkedin.com/in/miguelangellofredo/) mientras estou estudando na [Trybe](https://www.betrybe.com/).
 
