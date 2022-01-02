@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <h1>Form Curricular</h1>
+
+    <form action="" method="get">
+
+<fieldset>
+    <label for="name">Name:</label>
+    <input type="text" maxlength="50" id="name" required>
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+
+    <label for="cpf">CPF:</label>
+    <input type="text" name="cpf" id="cpf" maxlength="11" required>
+    <br>
+
+    <label for="endereco">Endereco:</label>
+    <input type="text" name="endereco" id="endereco" maxlength="200" required>
+    <br>
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" name="cidade" id="cidade" maxlength="28" required>
+    <br>
+
+    <label for="estado">Estado:</label>
+    <select name="estados-brasil" id='select-estados'></select>
+    <br>
+
+    <input type="radio" id="casa" value="casa" name="home" required>
+    <label for="casa">Casa</label>
+    <br>
+
+    <input type="radio" id="apartamento" value="apartamento" name="home" required>
+    <label for="apartamento">Apartamento</label>
+    <br>
+</fieldset>
+
+<fieldset>
+    <textarea name="trabalho" id="trabalho" cols="30" rows="10" maxlength="1000" required>Resumo do Curriculo</textarea>
+    <textarea name="cargo" id="cargo" cols="30" rows="10" maxlength="40" required>Cargo</textarea>
+    <textarea name="descricao-cargo" id="descricao-cargo" cols="30" rows="10" maxlength="500" required>Descricao do Cargo</textarea>
+    <br>
+
+    <label for="data">Data de Inicio:</label>
+    <input type="date" name="data" id="data" required>
+</fieldset>
+
+<button type="submit">Enviar</button>
+<button type="reset">Limpar Tudo</button>
+</form>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
