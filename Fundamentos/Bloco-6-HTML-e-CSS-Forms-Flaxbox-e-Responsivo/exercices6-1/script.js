@@ -1,7 +1,10 @@
 const select = document.querySelector('#select-estados');
-let cpf = document.querySelector('#cpf');
+const cpf = document.querySelector('#cpf');
 const form = document.querySelector('#formulario');
-
+const btnEnviar = document.querySelector('#enviar');
+const btnLimpar = document.querySelector('#limpar')
+const inputs = document.querySelectorAll('input');
+const text = document.querySelectorAll('textarea')
 
 // let cpfValidate = /[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}/;
 
@@ -16,7 +19,20 @@ function createStates(){
 }
 createStates()
 
-function stopDefault(){
-    form.preventDefault()
+function stopDefault(event){
+    event.preventDefault()
+    btns()
 }
-stopDefault()
+btnEnviar.addEventListener('click', stopDefault);
+
+function btns(){
+    for (let i = 0; i < inputs.length; i +=1){
+        if(!inputs[i].value){
+        alert(`Preencher ${inputs[i].name}`)
+      }
+    }
+  }
+btnLimpar.addEventListener('click', function limparForm(){
+    inputs.value = "";
+    text.value = "";
+})
