@@ -8,55 +8,59 @@
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <script src="jquery-3.6.0.min.js"></script>
     <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+    <script src="dist/js/DatePickerX.min.js"></script>
 </head>
-<body> 
-    <main>
+<body>
+    <main class="mb-3 mt-3 ms-3 me-3">
     <h1 id='title'>Form Curricular</h1>
 
     <form action="" method="get" id="formulario">
 
 <fieldset id ='fielsetOne'>
-    <label for="name">Name:</label>
-    <input type="text" maxlength="50" id="name" name="name" required>
+    <label class='form-label' for="name">Name:</label>
+    <input class="form-control" type="text" maxlength="50" id="name" name="name" required>
     <br>
 
-    <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required>
+    <label class='form-label' for="email">Email:</label>
+    <input class="form-control" type="email" name="email" id="email" required>
     <br>
 
-    <label for="cpf">CPF:</label>
-    <input type="text" name="cpf" id="cpf" maxlength="11" required>
+    <label class='form-label' for="cpf">CPF:</label>
+    <input class="form-control" type="text" name="cpf" id="cpf" maxlength="11" required>
     <br>
 
-    <label for="endereco">Endereco:</label>
-    <input type="text" name="endereco" id="endereco" maxlength="200" required>
+    <label class='form-label' for="endereco">Endereco:</label>
+    <input class="form-control" type="text" name="endereco" id="endereco" maxlength="200" required>
     <br>
 
-    <label for="cidade">Cidade:</label>
-    <input type="text" name="cidade" id="cidade" maxlength="28" required>
+    <label class='form-label' for="cidade">Cidade:</label>
+    <input class="form-control" type="text" name="cidade" id="cidade" maxlength="28" required>
     <br>
 
-    <label for="estado">Estado:</label>
-    <select name="estados-brasil" id='select-estados'></select>
+    <label class='form-label' for="select-estados">Estado:</label>
+    <select class="form-select" aria-label="Default select example" name="estados-brasil" id='select-estados'>
+        <option selected>Open this select menu</option>
+    </select>
     <br>
 
-    <input type="radio" id="casa" value="casa" name="home" required>
-    <label for="casa">Casa</label>
+    <input class="form-check-input" type="radio" id="casa" value="casa" name="home" required>
+    <label class="form-check-label" for="casa">Casa</label>
     <br>
 
-    <input type="radio" id="apartamento" value="apartamento" name="home" required>
-    <label for="apartamento">Apartamento</label>
+    <input class="form-check-input" type="radio" id="apartamento" value="apartamento" name="home" required>
+    <label class="form-check-label" for="apartamento">Apartamento</label>
     <br>
 </fieldset>
 
 <fieldset id='fieldsetTwo'>
-    <textarea name="trabalho" id="trabalho" cols="30" rows="10" maxlength="1000" required>Resumo do Curriculo</textarea>
-    <textarea name="cargo" id="cargo" cols="30" rows="10" maxlength="40" required>Cargo</textarea>
-    <textarea name="descricao-cargo" id="descricao-cargo" cols="30" rows="10" maxlength="500" required>Descricao do Cargo</textarea>
+    <textarea class="form-control" name="trabalho" id="trabalho" cols="30" rows="10" maxlength="1000" placeholder="Resumo do Curriculo" required></textarea>
+    <textarea class="form-control" name="cargo" id="cargo" cols="30" rows="10" maxlength="40" placeholder="Cargo" required></textarea>
+    <textarea class="form-control" name="descricao-cargo" id="descricao-cargo" cols="30" rows="10" maxlength="500" placeholder="Descricao do Cargo" required></textarea>
     <br>
 
-    <label for="data">Data de Inicio:</label>
-    <input type="date" name="data" id="data" required>
+    <label class='form-control' for="data">Data de Inicio:</label>
+    <input class="form-control" type="text" name="data" id="data" required>
 </fieldset>
 
 <button type="submit" id='enviar'>Enviar</button>

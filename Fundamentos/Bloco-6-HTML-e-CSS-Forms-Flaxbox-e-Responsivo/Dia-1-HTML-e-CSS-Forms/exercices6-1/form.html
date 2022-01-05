@@ -9,11 +9,11 @@
 </head>
 <body>
     <main>
-    <h1>Form Curricular</h1>
+    <h1 id='title'>Form Curricular</h1>
 
     <form action="" method="get" id="formulario">
 
-<fieldset>
+<fieldset id ='fielsetOne'>
     <label for="name">Name:</label>
     <input type="text" maxlength="50" id="name" name="name" required>
     <br>
@@ -47,10 +47,10 @@
     <br>
 </fieldset>
 
-<fieldset>
+<fieldset id='fieldsetTwo'>
     <textarea name="trabalho" id="trabalho" cols="30" rows="10" maxlength="1000" required>Resumo do Curriculo</textarea>
     <textarea name="cargo" id="cargo" cols="30" rows="10" maxlength="40" required>Cargo</textarea>
-    <textarea name="descricao-cargo" id="descricao-cargo" cols="30" rows="10" maxlength="500" required>Descricao do Cargo</textarea>
+    <textarea name="descricao-cargo" id="descricao" cols="30" rows="10" maxlength="500" required>Descricao do Cargo</textarea>
     <br>
 
     <label for="data">Data de Inicio:</label>
@@ -60,6 +60,7 @@
 <button type="submit" id='enviar'>Enviar</button>
 <button type="reset" id='limpar'>Limpar Tudo</button>
 </form>
+<div id='container'></div>
 </main>
     <script src="script.js"></script>
 </body>
