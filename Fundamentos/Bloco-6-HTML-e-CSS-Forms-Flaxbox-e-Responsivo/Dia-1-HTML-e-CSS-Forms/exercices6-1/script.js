@@ -7,6 +7,7 @@ const inputs = document.querySelectorAll('input');
 const text = document.querySelectorAll('textarea')
 const container = document.querySelector('#container');
 
+
 function createStates(){
     let estados = ['AC','AL','AP','AM','BA','CE','DF','ES','GO','MA','MS','MT','MG','PA','PB','PR','PE','PI','RJ','RN','RS','RO','RR','SC','SP','SE','TO',]
     for(let i of estados){
@@ -76,27 +77,16 @@ function estado(){
         paragraph.innerText = `Estado: ${select.value}`
     }
 }
-
-function casa(){
-    let casa = document.querySelector('#casa');
-    if(casa.value){
+function house(){
+    const moradia = document.querySelectorAll('.moradia');
+    for(let i = 0; i < moradia.length; i += 1){
+        if (moradia[i].checked){
         let paragraph = document.createElement('p');
-        paragraph.className = 'casa'
         container.appendChild(paragraph);
-        paragraph.innerText = `Mora em ${casa.value}`
+        paragraph.innerText = `${moradia[i].value}`
+        }
     }
 }
-
-function apartamento(){
-    let apartamento = document.querySelector('#apartamento');
-    if(apartamento.value){
-        let paragraph = document.createElement('p');
-        paragraph.className = 'apartamento'
-        container.appendChild(paragraph);
-        paragraph.innerText = `Mora em ${apartamento.value}`
-    }
-}
-
 function trabalho(){
     let trabalho = document.querySelector('#trabalho');
     if(trabalho.value){
@@ -142,15 +132,14 @@ function btnSend(){
     email();
     cpfs();
     endereco();
-    btns();
     cidade();
     estado();
-    casa();
-    apartamento();
+    house();
     trabalho();
     cargo();
     descricao();
     data();
+    btns();
 }
 
 function stopDefault(event){
