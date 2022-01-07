@@ -6,12 +6,88 @@ html {
     box-sizing: inherit;
   }
 
-  @media screen and (min-width: 400px) {
-      
+  @media screen and (max-width: 400px) {
+    .container{
+      width: 80%;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    header p {
+      font-size: 30px;
+      text-align: center;
+      font-weight: 900;
+    }
+    header nav ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    } 
   }
-  @media screen and (min-width: 800px) {
-      
+
+
+
+
+
+  @media screen and (max-width: 800px) {
+    .container{
+      width: 90%;
+      margin: auto;
+    }
+  h1, h2 {
+    text-align: center;
   }
-  @media screen and (min-width: 1200px){
-      
+  header p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  ul{
+    list-style: none;
+  } 
+  .aside-one ul{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+  }
+  .aside-two ul{
+    width: 50%;
+    margin: auto;
+    text-align: left
+  }
+
+  footer h3, :nth-child(2){
+    text-align: center;
+  }
+}
+
+
+
+
+
+  @media screen and (max-width: 1200px){
+    .container{
+      width: 90%;
+      margin: auto;
+    }
+      body{
+        text-align: center;
+        background-color: rgba(194, 203, 218, 0.342);
+      }
+      header p {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 900;
+      }
+      ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        list-style: none;
+      }
   }
