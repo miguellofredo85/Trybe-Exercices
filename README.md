@@ -52,8 +52,13 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 - [x] 6.1 _HTML e CSS - Forms_
 - [x] 6.2 _Bibliotecas JavaScript e Frameworks CSS_
-- [] 6.3 _Introducao - CSS Flexbox_
-- [] 6.3 _CSS Flexbox - Parte 1_
-- [] 6.4 _CSS Flexbox - Parte 2_
-- [] 6.5 CSS Responsivo - Mobile First_
+- [x] 6.3 _Introducao - CSS Flexbox_
+- [x] 6.3 _CSS Flexbox - Parte 1_
+- [x] 6.4 _CSS Flexbox - Parte 2_
+- [x] 6.5 CSS Responsivo - Mobile First_
 
+#### Bloco 7 - Introducao a JS ES6 e Testes Unitarios
+
+- [] 7.1 _JS ES6 - Let, Const, Arrow Function e Templates Literals_
+- [] 7.2 _JS ES6 - Fluxo de Excecao e Objetos_
+- [] 7.3 _Primeiros passos em Jest_
