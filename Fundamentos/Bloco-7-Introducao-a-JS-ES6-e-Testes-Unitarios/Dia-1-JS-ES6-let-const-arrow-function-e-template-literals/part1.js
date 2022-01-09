@@ -35,6 +35,4 @@ const testingScope = escopo => {
 //   Copie o código abaixo.
 
   const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-
-const comparaNumeros = (a,b) => { if (a == b) return 0; if (a < b) return -1; if (a > b) return 1; }
-  console.log(`"Os numeros ${oddsAndEvens.sort(comparaNumeros)} se encontram ordenados de forma crescente!"`);
+  console.log(`"Os numeros ${oddsAndEvens.sort((a,b)=>a-b)} se encontram ordenados de forma crescente!"`);
