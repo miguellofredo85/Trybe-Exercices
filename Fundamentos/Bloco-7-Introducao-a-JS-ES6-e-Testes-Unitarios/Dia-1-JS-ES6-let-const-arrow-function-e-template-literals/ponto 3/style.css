@@ -1,0 +1,24 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: azure;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.count{
+    font-size: 100px;
+}
+#btn-counter{
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -80px;
+    background-color: aqua;
+    color: rgb(14, 54, 163);
+    font-weight: 900;
+}
