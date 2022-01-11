@@ -15,14 +15,29 @@
   <button id='button'>Somar</button>
   <p id='result'></p>
   <script>
-    function sum() {
-      const value1 = document.getElementById('value1').value;
+      
+
+    const inputsNumber = (value1, value2) => {
+      if (!value1 || !value2){
+        throw new Error('Complete the fields');
+      }
+      if (isNaN(!value1, !value2){
+        throw new Error('Nao sao numeros')
+      }
+    }
+    const sum = () => {
+      try {
+        const value1 = document.getElementById('value1').value;
       const value2 = document.getElementById('value2').value;
+      inputsNumber(value1,value2);
       const result = parseInt(value1) + parseInt(value2);
       document.getElementById('result').innerHTML = `Resultado: ${result}`;
       document.getElementById('value1').value = '';
       document.getElementById('value2').value = '';
+    } catch (error) {
+      document.getElementById('result').innerHTML = `Resultado: Complete os campos com numeros`;
     }
+  }
     window.onload = () => {
       const button = document.getElementById('button');
       button.addEventListener('click', sum);
