@@ -1,4 +1,5 @@
 const abilities = ['terminal linux', ' git', ' HTML', ' CSS', ' JS'];
+
 let twoPhrases = word => {
 let phraseOne = `Tryber ${word} aqui!`;
 let newArr = abilities.sort().toString()
@@ -15,3 +16,4 @@ console.log(twoPhrases('Miguel'))
 //     return `${phraseOne('Miguel')} Minhas cinco habilidades sao: ${newArr}`
 //     }
 // console.log(phraseTwo())
+
