@@ -62,3 +62,11 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 7.1 _JS ES6 - Let, Const, Arrow Function e Templates Literals_
 - [x] 7.2 _JS ES6 - Fluxo de Excecao e Objetos_
 - [x] 7.3 _Primeiros passos em Jest_
+
+#### Bloco 8 - Higher Order Functions do JS EM6
+
+- [] 8.1 _JS ES6 - Introducao HOF_
+- [] 8.2 _JS ES6 - HOF - forEach, find,some, every, sort_
+- [] 8.3 _JS ES6 - HOF - map e filter_
+- [] 8.4 _JS ES6 - HOF - reduce_
+- [] 8.5 _JS ES6 - HOF - spread operator, parametro rest, destructuring e mais_
