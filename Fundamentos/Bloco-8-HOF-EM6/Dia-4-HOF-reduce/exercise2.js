@@ -61,7 +61,7 @@ const books = [
     },
   ];
 
-  const reduceNames = books.reduce((acc, val) => `${acc} ${val.author.name},`, "");
+  const reduceNames = books.reduce((acc, val) => `${acc} ${val.author.name},`, '');
   console.log(reduceNames)
   
   // Adicione o código do exercício aqui:2 - Crie uma string com os nomes de todas as pessoas autoras.

@@ -62,3 +62,9 @@ const books = [
   ];
   // livro com maior nome
   // Adicione o código do exercício aqui:
+
+  const longestNameBook = () => {
+    return books.reduce((acc, val) => (acc.name.length > val.name.length) ? acc : val)
+      
+  }
+  console.log(longestNameBook());

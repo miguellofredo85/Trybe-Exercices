@@ -62,3 +62,11 @@ const books = [
   ];
   
   // 3 - Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+const mediaAuthor = () => {
+  const media = books.length;
+  const sumaEdades = books.reduce((acc, val) =>  
+  acc + (val.releaseYear - val.author.birthYear), 0); 
+  return sumaEdades / media
+}
+
+console.log(mediaAuthor());
