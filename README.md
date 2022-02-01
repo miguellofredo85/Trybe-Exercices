@@ -70,3 +70,12 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 8.3 _JS ES6 - HOF - map e filter_
 - [x] 8.4 _JS ES6 - HOF - reduce_
 - [x] 8.5 _JS ES6 - HOF - spread operator, parametro rest, destructuring e mais_
+<<<<<<< HEAD
+=======
+
+#### Bloco 9 - JS-EM6-e-Testes-Asincronos
+
+- [x] 9.1 _JS ES6 - Assincrono e Callbacks_
+- [x] 9.2 _JS ES6 - Fetch API e Assync/Await_
+- [x] 9.3 _JS ES6 - Testes Assincronos_
+>>>>>>> bcd39a824c1243cadad72eedb223bddfd9bbe450
