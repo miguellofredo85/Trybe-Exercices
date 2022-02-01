@@ -75,4 +75,4 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 - [x] 9.1 _JS ES6 - Assincrono e Callbacks_
 - [x] 9.2 _JS ES6 - Fetch API e Assync/Await_
-- [] 9.3 _JS ES6 - Testes Assincronos_
+- [x] 9.3 _JS ES6 - Testes Assincronos_
