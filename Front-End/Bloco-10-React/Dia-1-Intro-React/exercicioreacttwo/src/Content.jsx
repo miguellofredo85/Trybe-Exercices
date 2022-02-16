@@ -29,7 +29,7 @@ class Content extends React.Component {
         return(
             <div className='content'>
                 {conteudos.map( cont => (
-                    <div key={cont.conteudo} className="card">
+                    <div key={cont.conteudo}>
                     <div>O conteudo e: {cont.conteudo}</div>
                     <div>Bloco: {cont.bloco}</div>
                     <div>Status: {cont.status}</div>
