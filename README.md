@@ -8,7 +8,7 @@ Trybe e uma escola que forma desenvolvedores web, toda a plataforma de estudo e 
 A escola tem mas de 1.500 horas de estudo repartilhados nos modulos de Fron e Back End, Ciencia da Computação e Fundamentos. 
 Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, desenvolvendo atitudes emocionais que ajudan no trabalho em equipe, foco, liderança (o contrario da chefia) e a autovaloração para continuo acrecentamento pessoal.
 
-## Fundamentos no Desenvolvimento Web ⏳
+## Fundamentos no Desenvolvimento Web
 
 
 ##### Bloco 1: Unix & Shell
@@ -78,4 +78,11 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 9.1 _JS ES6 - Assincrono e Callbacks_
 - [x] 9.2 _JS ES6 - Fetch API e Assync/Await_
 - [x] 9.3 _JS ES6 - Testes Assincronos_
->>>>>>> bcd39a824c1243cadad72eedb223bddfd9bbe450
+
+## Front-End
+
+#### Bloco 10 - React
+
+- [] 10.1 _Intro React - 'Hello World' on React
+- [] 
+- [] 
