@@ -31,7 +31,7 @@ class Content extends React.Component {
                 {conteudos.map( cont => (
                     <div key={cont.conteudo} className="card">
                     <div>O conteudo e: {cont.conteudo}</div>
-                    <div>Status: {cont.bloco}</div>
+                    <div>Bloco: {cont.bloco}</div>
                     <div>Status: {cont.status}</div>
                     </div>
                 ))}     
