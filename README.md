@@ -81,7 +81,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 ## Front-End
 
-#### Bloco 10 - React
+#### Bloco 10 - React :hourglass_flowing_sand:
 
 - [x] 10.1 _Intro React - 'Hello World' on React
 - [] 10.2 _Componentes React
