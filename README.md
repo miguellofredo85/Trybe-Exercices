@@ -1,4 +1,4 @@
-# Trybe - Formacao para Desenvolvedor Web
+# Trybe - Formacao para Desenvolvedor Web :heavy_check_mark:
 
 Este arquivo contem tudos os aprendizados adquiridos por [mim](https://www.linkedin.com/in/miguelangellofredo/) mientras estou estudando na [Trybe](https://www.betrybe.com/).
 
@@ -83,6 +83,5 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 #### Bloco 10 - React
 
-- [] 10.1 _Intro React - 'Hello World' on React
-- [] 
-- [] 
+- [x] 10.1 _Intro React - 'Hello World' on React
+- [] 10.2 _Componentes React
