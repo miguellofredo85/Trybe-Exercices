@@ -8,6 +8,7 @@ class App extends React.Component {
   render() {
     return (
       < div className="App">
+        <h1>Pokemon's!</h1>
         <Pokedex pokemones={pokemons} />
       </div>
     )}
