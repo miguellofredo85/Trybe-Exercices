@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 class Pokemon extends React.Component{
     render(){
-        const { pokemon: {name, type, averageWeight, image} } = this.props;
+        const { name, type, averageWeight, image} = this.props.pokemon;
         return(
             <div className="pokemon">
                 <div>
