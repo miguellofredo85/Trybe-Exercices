@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-const handleClick = (a) => {
-  console.log(a)
-};
 
-class App extends React.Component {
-  render() {
+export default function App () {
+  
+  const handleClick = (a) => {
+    console.log(a)
+  };
     return (
       <div className="btns">
       <button onClick={ () => handleClick("Penalty!") }>Click Me!</button>
@@ -16,6 +16,5 @@ class App extends React.Component {
       
     )
   }
-}
 
-export default App;
+// export default App;
