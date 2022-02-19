@@ -73,7 +73,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 <<<<<<< HEAD
 =======
 
-#### Bloco 9 - JS-EM6-e-Testes-Asincronos
+#### Bloco 9 - JS-EM6 e Testes Asincronos
 
 - [x] 9.1 _JS ES6 - Assincrono e Callbacks_
 - [x] 9.2 _JS ES6 - Fetch API e Assync/Await_
@@ -84,4 +84,10 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 #### Bloco 10 - React 
 
 - [x] 10.1 _Intro React - 'Hello World' on React
-- [] 10.2 _Componentes React
+- [x] 10.2 _Componentes React
+
+#### Bloco 11 - React - Componentes com Estado, Eventos e Formulários com React
+
+- [] 11.1 _Componentes com Estado e Eventos_
+- [] 11.2 _Formularios no React_
+ 
