@@ -1,5 +1,7 @@
 import './App.css';
 import React from 'react';
+import Email from './Email';
+import Textarea from './Textarea';
 
 class App extends React.Component {
   constructor(){
@@ -38,22 +40,9 @@ this.handleText = this.handleText.bind(this);
           </label>
           
 
-          <label>Email: 
-          <input
-          onChange={this.handleText}
-          value={this.state.email}
-          name="email"
-          type="email" />
-          </label>
+          <Email value={this.state.email} function={this.handleText}/>
           
-          <label>
-          Opinion:
-          <textarea
-          value={this.state.inputText}
-          name="inputText"
-          onChange={this.handleText}
-          />
-          </label>
+          <Textarea value={this.state.inputText} function={this.handleText}/>
           
           <label>
           Gostou?
