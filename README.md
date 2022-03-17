@@ -88,6 +88,19 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 #### Bloco 11 - React - Componentes com Estado, Eventos e Formulários com React
 
-- [] 11.1 _Componentes com Estado e Eventos_
-- [] 11.2 _Formularios no React_
+- [x] 11.1 _Componentes com Estado e Eventos_
+- [x] 11.2 _Formularios no React_
+
+#### Bloco 12 - React - Ciclo de vida dos componentes e React Router
+
+- [x] 12.1 _Ciclo de vida de componentes_
+- [x] 12.2 _React Router_
  
+#### Bloco 13 - React - Metodologias Ageis
+
+- [x] 13.1 _Metodologias Ageis_
+
+#### Bloco 14 - React -Testes Automatizados con React Testing Library
+
+- [x] 14.1 _Primeras Pasos_
+
