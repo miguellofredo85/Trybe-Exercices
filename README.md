@@ -1,4 +1,4 @@
-# Trybe - Formacao para Desenvolvedor Web :heavy_check_mark:
+# Trybe - Formacao para Desenvolvedor Web 
 
 Este arquivo contem tudos os aprendizados adquiridos por [mim](https://www.linkedin.com/in/miguelangellofredo/) mientras estou estudando na [Trybe](https://www.betrybe.com/).
 
@@ -8,7 +8,7 @@ Trybe e uma escola que forma desenvolvedores web, toda a plataforma de estudo e 
 A escola tem mas de 1.500 horas de estudo repartilhados nos modulos de Fron e Back End, Ciencia da Computação e Fundamentos. 
 Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, desenvolvendo atitudes emocionais que ajudan no trabalho em equipe, foco, liderança (o contrario da chefia) e a autovaloração para continuo acrecentamento pessoal.
 
-## Fundamentos no Desenvolvimento Web
+## Fundamentos no Desenvolvimento Web :heavy_check_mark:
 
 
 ##### Bloco 1: Unix & Shell
