@@ -103,4 +103,6 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 #### Bloco 14 - React -Testes Automatizados con React Testing Library
 
 - [x] 14.1 _Primeras Pasos_
+- [x] 14.2 _Mocks e Inputs_
+- [ ] 14.3 _Testando React Router_
 
