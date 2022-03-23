@@ -104,5 +104,5 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 - [x] 14.1 _Primeras Pasos_
 - [x] 14.2 _Mocks e Inputs_
-- [ ] 14.3 _Testando React Router_
+- [x] 14.3 _Testando React Router_
 
