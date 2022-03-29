@@ -34,7 +34,7 @@ checkAcordos.addEventListener('click', () => {
 textarea.addEventListener('input', () => {
   const caracteres = textarea.value.length;
   const decrescent = 500 - caracteres;
-  counter.innerHTML = decrescent;
+  counter.innerText = decrescent;
 });
 
 const checkFamily = () => {
