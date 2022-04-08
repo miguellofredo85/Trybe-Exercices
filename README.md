@@ -112,4 +112,4 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 15.2 _Redux no React_
 - [x] 15.3 _Redux no React (pratica)_
 - [x] 15.4 _Async no React Redux_
-- [ ] 15.5 _Testes no React Redux_
+- [x] 15.5 _Testes no React Redux_
