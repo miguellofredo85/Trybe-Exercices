@@ -116,7 +116,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 #### Bloco 16 - Projeto Trivia
 
--[x] _Jogo de Trivia_
+- [x]  _Jogo de Trivia_
 
 #### Bloco 17 - Context API e React Hookh
 
