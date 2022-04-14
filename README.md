@@ -106,3 +106,24 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 14.2 _Mocks e Inputs_
 - [x] 14.3 _Testando React Router_
 
+#### Bloco 15 - Gerenciamento de estado com Redux
+
+- [x] 15.1 _Intro ao Estado Global da Aplicacao (Redus no JS)_
+- [x] 15.2 _Redux no React_
+- [x] 15.3 _Redux no React (pratica)_
+- [x] 15.4 _Async no React Redux_
+- [x] 15.5 _Testes no React Redux_
+
+#### Bloco 16 - Projeto Trivia
+
+- [x]  _Jogo de Trivia_
+
+#### Bloco 17 - Context API e React Hookh
+
+- [x] 17.1 _Context API do React_
+- [x] 17.2 _useState e useContext_
+- [x] 17.3 _useEffect e Hooks customizados_
+
+#### Bloco 18 - Projeto App de Receitas
+
+- [] _Projeto App de Receitas_
