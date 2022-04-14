@@ -1,8 +1,6 @@
 
 ## Habilidades
 
-Neste projeto, verificamos se você é capaz de:
-
 - Produzir código legível, conciso e expressivo utilizando as novas funcionalidades do ES6;
 - Utilizar as _Higher Order Functions_ para manipular e criar arrays;
 - Escolher a _Higher Order Function_ mais adequada para a obtenção de um resultado esperado;
@@ -13,18 +11,6 @@ Neste projeto, verificamos se você é capaz de:
 
 
 
-### Desenvolvimento
-
-Este repositório contém um _template_ de uma aplicação **NodeJS** (observe a existência do arquivo _package.json_).
-
-Você deverá completar as funções de forma a satisfazer os requisitos listados na próxima seção. Na pasta raíz do projeto, temos as pastas `src`, `tests` e `data` . A pasta `src` é composta por arquivos referentes a cada uma das funções que você irá implementar, a pasta `data` contém o arquivo `zoo_data.js`, que armazena os dados que serão utilizados. Já a pasta `tests`, contém os testes unitários correspondentes a cada função, o nome do arquivo é o nome da função alvo acrescido do sufixo `.test.js`.
-
-**Por exemplo:** o arquivo `src/getSpeciesByIds.js` conterá a implementação da função `getSpeciesByIds` e o arquivo `tests/getSpeciesByIds.test.js` conterá os testes unitários referentes a ela.
-
-
-## Requisitos do projeto
-
-Você deverá implementar as funções que estão na pasta `src`. Para ver o retorno que a função deverá ter, leia o arquivo de testes referente a ela. Lembre-se de aplicar as novas funcionalidades do ES6 como arrow functions, template literals, spread operator, parâmetro rest, object destructuring, entre outras. Utilize também as _Higher Order Functions_.
 
 ### 1. Implemente a função `getSpeciesByIds`
 
