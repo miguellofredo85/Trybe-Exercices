@@ -123,3 +123,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 17.1 _Context API do React_
 - [x] 17.2 _useState e useContext_
 - [x] 17.3 _useEffect e Hooks customizados_
+
+#### Bloco 18 - Projeto App de Receitas
+
+- [] _Projeto App de Receitas_
