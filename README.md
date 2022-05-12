@@ -79,7 +79,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] 9.2 _JS ES6 - Fetch API e Assync/Await_
 - [x] 9.3 _JS ES6 - Testes Assincronos_
 
-## Front-End :hourglass_flowing_sand:
+## Front-End :heavy_check_mark:
 
 #### Bloco 10 - React 
 
@@ -126,4 +126,4 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 #### Bloco 18 - Projeto App de Receitas
 
-- [] _Projeto App de Receitas_
+- [x] _Projeto App de Receitas_
