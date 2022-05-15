@@ -128,5 +128,11 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 - [x] _Projeto App de Receitas_
 
-## Desenvolvimento Back-end ![image](https://user-images.githubusercontent.com/90476565/168486800-9306f230-6cf3-4345-aaf4-2166d360fd7e.png)
+## Desenvolvimento Back-end (working on!)
+
+- [x] _Intro Back-End
+- [x] _Docker Containers_
+- [x] _Docker Images_
+- [ ] _Docker Compose_
+- [ ] _Projeto Docker ToDo List_ 
 
