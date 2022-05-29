@@ -130,9 +130,26 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 ## Desenvolvimento Back-end (working on!)
 
+#### Bloco 19 - Docker
+
 - [x] _Intro Back-End
 - [x] _Docker Containers_
 - [x] _Docker Images_
-- [ ] _Docker Compose_
-- [ ] _Projeto Docker ToDo List_ 
+- [x] _Docker Compose_
+- [x] _Projeto Docker ToDo List_ 
 
+#### Bloco 20 - Intro MySQL
+
+- [x] _Banco de dado relacionais_
+- [x] _Banco de dados SQL_
+- [x] _Encontrando  dados em um banco de dados_
+- [x] _Filtrando dados especificos_
+- [x] _Manipulado tabelas_
+- [x] _Projeto All for one_
+
+#### Bloco 21 - Funcoes SQL, Join's e Normalizacao
+
+- [] _Funciones mais usadas em SQL_
+- [] _Descomplicando JOIN's_
+- [] _Transformando ideias em um modelo de banco de dados_
+- [] _Aula ao vivo + Projeto One for all_
