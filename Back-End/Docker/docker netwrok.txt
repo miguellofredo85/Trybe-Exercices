@@ -1,0 +1,13 @@
+1. docker network create -d bridge minha-rede (creo minha rede local)
+2. docker container run \
+    -itd \
+    --network minha-rede \
+     --name meu-container \
+     busybox
+
+assim vinculo mina rede ao container
+
+3.docker network connect minha-rede meu-container (conecta)
+
+4. docker network disconnect minha-rede meu-container (desconecta)
+
