@@ -138,7 +138,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] _Docker Compose_
 - [x] _Projeto Docker ToDo List_ 
 
-#### Bloco 20 - Intro MySQL
+#### Bloco 20 - MySQL
 
 - [x] _Banco de dado relacionais_
 - [x] _Banco de dados SQL_
@@ -149,7 +149,16 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 #### Bloco 21 - Funcoes SQL, Join's e Normalizacao
 
-- [] _Funciones mais usadas em SQL_
-- [] _Descomplicando JOIN's_
-- [] _Transformando ideias em um modelo de banco de dados_
-- [] _Aula ao vivo + Projeto One for all_
+- [x] _Funciones mais usadas em SQL_
+- [x] _Descomplicando JOIN's_
+- [x] _Transformando ideias em um modelo de banco de dados_
+- [x] _Aula ao vivo + Projeto One for all_
+
+#### Bloco 22 - Node.js
+
+- [x] _Um motor javascript_
+- [] _Fluxo assincrono_
+- [] _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [] _Express - HTTP com Node.js_
+- [] _Express - Middlewares_
+- [] _Atividades + Projeto - Talker Manager_
