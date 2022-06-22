@@ -155,8 +155,8 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 #### Bloco 22 - Node.js
 
 - [x] _Um motor javascript_
-- [] _Fluxo assincrono_
-- [] _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
-- [] _Express - HTTP com Node.js_
-- [] _Express - Middlewares_
-- [] _Atividades + Projeto - Talker Manager_
+- [x] _Fluxo assincrono_
+- [x] _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [x] _Express - HTTP com Node.js_
+- [x] _Express - Middlewares_
+- [x] _Atividades + Projeto - Talker Manager_
