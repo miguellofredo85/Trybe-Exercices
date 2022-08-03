@@ -155,8 +155,33 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 #### Bloco 22 - Node.js
 
 - [x] _Um motor javascript_
-- [] _Fluxo assincrono_
-- [] _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
-- [] _Express - HTTP com Node.js_
-- [] _Express - Middlewares_
-- [] _Atividades + Projeto - Talker Manager_
+- [x] _Fluxo assincrono_
+- [x] _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [x] _Express - HTTP com Node.js_
+- [x] _Express - Middlewares_
+- [x] _Atividades + Projeto - Talker Manager_
+
+#### Bloco 23 - Node.js - Camada de Servico - Arquitetura Rest e Restful
+
+- [x] _Model_
+- [x] _Controller e Service_
+- [x] _Rest e Restful_
+- [x] _Testes sobre as Camadas_
+- [x] _Projeto Store Manager_
+
+#### Bloco 24 - Node.js - ORM e Autenticacao
+
+- [x] _ORM - Interface de aplicacao com o banco de dados_
+- [x] _ORM - Associations_
+- [x] _(JWT) Jason Web Token_
+- [x] _Testando API's com testes de integracao_
+- [x] _Projeto API de Blogs_
+
+#### Bloco 25 - Deployment
+
+- [x] Deploy com Heroku_
+- [x] _Deploy Docker & Heroku_
+- [x] _Projeto Stranger Things_
+
+
+
