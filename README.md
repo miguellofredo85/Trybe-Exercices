@@ -179,9 +179,22 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 #### Bloco 25 - Deployment
 
-- [x] Deploy com Heroku_
+- [x] _Deploy com Heroku_
 - [x] _Deploy Docker & Heroku_
 - [x] _Projeto Stranger Things_
 
+#### Bloco 26 - Typescript
 
+- [x] _Introducao_
+- [x] _Tipagem Estatic e Generic_
+- [x] _Express com Typescript_
+- [x] _Projeto Trybe Smith_
 
+#### Bloco 27 - POO e SOLID
+
+- [x] _Introducao a POO_
+- [x] _Heranca e Interfaces_
+- [x] _Polimorfismo_
+- [] _SOLID, principios S, O e D_
+- [] _SOLID, principios I e L_
+- [] _Projeto Trybers and Dragons_
