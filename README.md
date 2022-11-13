@@ -126,7 +126,7 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 
 - [x] _Projeto App de Receitas_
 
-## Desenvolvimento Back-end (working on!)
+## Desenvolvimento Back-end :heavy_check_mark:
 
 #### Bloco 19 - Docker
 
@@ -195,6 +195,32 @@ Mas não so forma alunos no hard-skill, tambem somos formados no Soft-skill, des
 - [x] _Introducao a POO_
 - [x] _Heranca e Interfaces_
 - [x] _Polimorfismo_
-- [] _SOLID, principios S, O e D_
-- [] _SOLID, principios I e L_
-- [] _Projeto Trybers and Dragons_
+- [x] _SOLID, principios S, O e D_
+- [x] _SOLID, principios I e L_
+- [x] _Projeto Trybers and Dragons_
+
+#### Bloco 28 - Projeto TFC
+
+- [x] _Projeto Trybe Futebol Club_
+
+#### Bloco 29 - MongoDB
+
+- [x] _Intro_
+- [x] _Filters Operators_
+- [x] _Operadores de consulta_
+- [x] _Updates_
+- [x] _Updates complexos - Arrays_
+- [x] _Projeto E-Commerce_
+
+#### Bloco 30 - API's OO e NoSQL
+
+- [x] _API NoSQL -> POOe ODMs_
+- [x] _API POO NoSQL -> Herança e Abstraçao_
+- [x] _Projeto Car Shop_
+
+#### Bloco 31 - Projeto
+
+- [x] _Projeto App Delivery_
+
+#### Bloco 32 - Masterclass - VPS, CI/CD
+
